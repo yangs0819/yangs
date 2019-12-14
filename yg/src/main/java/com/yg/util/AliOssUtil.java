@@ -21,11 +21,12 @@ import java.util.List;
  */
 public class AliOssUtil {
     // Endpoint以杭州为例，其它Region请按实际情况填写。
-   private static String endpoint = "http://oss-cn-beijing.aliyuncs.com";
-    // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-    private static String accessKeyId = "LTAIhTvqTSmlmjeQ";
-    private static String accessKeySecret = "X7X9w0Ck5GEIWgP9tl0Q6sgmFjQuMv";
-    private static String bucketName = "qfjava1908";
+     // Endpoint以杭州为例，其它Region请按实际情况填写。  
+     private static String endpoint = "http://oss-cn-shenzhen.aliyuncs.com";
+    //阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日 常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。    
+     private static String accessKeyId = "LTAI4Fq3A3mFJJ4hckm9s3jt";
+    private static String accessKeySecret ="p82181ZP8x76IEvzdnbKxTDCbyvCLC";
+     private static String bucketName = "java-jzx";
 
     private static OSS client;
     static {
